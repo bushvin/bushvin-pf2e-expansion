@@ -25,7 +25,7 @@ jobs:
         allowUpdates: false
         draft: false
         prerelease: false
-        artifacts: "release.zip"
+        artifacts: "module.json,release.zip"
         token: ${{ secrets.GITHUB_TOKEN }}
         tag: ${{ env.systemVersion }}
 
