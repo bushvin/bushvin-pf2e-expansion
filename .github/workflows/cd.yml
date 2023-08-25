@@ -15,7 +15,7 @@ jobs:
       uses: thedoctor0/zip-release@0.7.1
       with:
         type: 'zip'
-        filename: 'release.zip'
+        filename: 'bushvin-pf2e-expansion.zip'
         exclusions: '*.git* .vscode src'
     - name: Create Version Release
       id: create_version_release
@@ -25,7 +25,7 @@ jobs:
         allowUpdates: false
         draft: false
         prerelease: false
-        artifacts: "module.json,release.zip"
+        artifacts: "module.json,bushvin-pf2e-expansion.zip"
         token: ${{ secrets.GITHUB_TOKEN }}
         tag: ${{ env.systemVersion }}
 
