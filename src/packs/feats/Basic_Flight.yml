@@ -1,0 +1,53 @@
+folder: WPY4b746k2iCiVs3
+name: Basic Flight
+type: feat
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>Your wings grow stronger and capable of brief flight. You can fly
+      through the air in short bursts at half your land Speed. If you don’t end
+      your movement on solid ground, you fall at the end of your turn.</p>
+  source:
+    value: ''
+  rules: []
+  slug: basic-flight
+  schema:
+    version: 0.854
+    lastMigration: null
+  level:
+    value: 5
+  traits:
+    value:
+      - hb_dragonborn
+    rarity: common
+  category: ancestry
+  onlyLevel1: false
+  maxTakable: 1
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value:
+      - value: Dragon Wings
+  location: null
+  frequency:
+    max: 1
+    per: round
+_id: WzHUHXurvmcECGM3
+img: systems/pf2e/icons/spells/fly.webp
+sort: 0
+ownership:
+  default: 0
+  1m7IAspt1k3Q906j: 3
+flags: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.3.2
+  coreVersion: '11.307'
+  createdTime: 1692871626623
+  modifiedTime: 1692879651319
+  lastModifiedBy: 1m7IAspt1k3Q906j
+_key: '!items!WzHUHXurvmcECGM3'

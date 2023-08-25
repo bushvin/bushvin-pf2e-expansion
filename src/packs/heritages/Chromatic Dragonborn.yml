@@ -1,0 +1,16 @@
+name: Chromatic Dragonborn
+sorting: a
+folder: null
+type: Item
+_id: VkaariTo8IIkRe8J
+sort: 0
+color: null
+flags: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.3.2
+  coreVersion: '11.307'
+  createdTime: 1692879696042
+  modifiedTime: 1692879696042
+  lastModifiedBy: 1m7IAspt1k3Q906j
+_key: '!folders!VkaariTo8IIkRe8J'

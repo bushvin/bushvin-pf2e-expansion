@@ -1,0 +1,39 @@
+folder: ojXHip2KZUKuLdR7
+name: Brass Dragonborn
+type: heritage
+effects: []
+system:
+  description:
+    gm: ''
+    value: ''
+  source:
+    value: ''
+  rules: []
+  slug: brass-dragonborn
+  schema:
+    version: 0.854
+    lastMigration: null
+  traits:
+    value:
+      - hb_brass
+      - hb_metallic
+    rarity: common
+  ancestry:
+    name: Dragonborn
+    slug: dragonborn
+    uuid: Compendium.bushvin-pf2e-expansion.ancestries.Item.zZR26Ycr687afIZe
+_id: QwA4eZEXP5W0Juqe
+img: systems/pf2e/icons/spells/dragon-form.webp
+sort: 0
+ownership:
+  default: 0
+  1m7IAspt1k3Q906j: 3
+flags: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.3.2
+  coreVersion: '11.307'
+  createdTime: 1692879762970
+  modifiedTime: 1692879816504
+  lastModifiedBy: 1m7IAspt1k3Q906j
+_key: '!items!QwA4eZEXP5W0Juqe'

@@ -1,0 +1,40 @@
+folder: VkaariTo8IIkRe8J
+name: Red Dragonborn
+type: heritage
+effects: []
+system:
+  description:
+    gm: ''
+    value: ''
+  source:
+    value: ''
+  rules: []
+  slug: red-dragonborn
+  schema:
+    version: 0.854
+    lastMigration: null
+  traits:
+    value:
+      - hb_red
+      - hb_chromatic
+    rarity: common
+  ancestry:
+    name: Dragonborn
+    slug: dragonborn
+    uuid: Compendium.bushvin-pf2e-expansion.ancestries.Item.zZR26Ycr687afIZe
+img: systems/pf2e/icons/spells/dragon-form.webp
+ownership:
+  default: 0
+  1m7IAspt1k3Q906j: 3
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.3.2
+  coreVersion: '11.307'
+  createdTime: 1692867554286
+  modifiedTime: 1692879709243
+  lastModifiedBy: 1m7IAspt1k3Q906j
+_id: 6hrXn0oduivm6X0y
+sort: 200000
+_key: '!items!6hrXn0oduivm6X0y'

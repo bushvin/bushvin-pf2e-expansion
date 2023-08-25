@@ -1,0 +1,54 @@
+name: Dragon Wings
+type: feat
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>A pair of small, draconic wings grow from your back. While these wings
+      aren’t strong enough to help you fly just yet, they allow you to travel
+      longer distances when jumping. When Leaping horizontally, you move an
+      additional 5 feet. You don’t automatically fail your checks to High Jump
+      or Long Jump if you don’t Stride at least 10 feet first. In addition, when
+      you make a Long Jump, you can jump a distance up to 10 feet further than
+      your Athletics check result, though still with the normal maximum of your
+      Speed.</p>
+  source:
+    value: ''
+  rules: []
+  slug: dragon-wings
+  schema:
+    version: 0.854
+    lastMigration: null
+  level:
+    value: 1
+  traits:
+    value:
+      - hb_dragonborn
+    rarity: common
+  category: ancestry
+  onlyLevel1: false
+  maxTakable: 1
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value: []
+  location: null
+_id: KtEawYwMyMnSvuVU
+img: systems/pf2e/icons/spells/dragon-wings.webp
+folder: NnZWtMQ83iuKNqu6
+sort: 150000
+ownership:
+  default: 0
+  1m7IAspt1k3Q906j: 3
+flags: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.3.2
+  coreVersion: '11.307'
+  createdTime: 1692871183559
+  modifiedTime: 1692879647229
+  lastModifiedBy: 1m7IAspt1k3Q906j
+_key: '!items!KtEawYwMyMnSvuVU'

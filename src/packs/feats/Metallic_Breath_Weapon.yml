@@ -1,0 +1,59 @@
+folder: WPY4b746k2iCiVs3
+name: Metallic Breath Weapon
+type: feat
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>You gain a second breath weapon. When you take the attack action on
+      your turn, you can replace one of your with an exhalation in a 15-foot
+      cone. The save DC for this breath is 8 + your Constitution modifier + your
+      proficiency bonus. Whenever you use this trait, choose one:</p>
+
+      <p><strong>Enervating Breath</strong> Each creature in the cone must
+      succeed a constitution saving throw or become incapacitated until the
+      start of your next turn.</p>
+
+      <p><strong>Repulsion Breath</strong> Each creature in the cone must
+      succeed a strength saving throw or be pushed 20 feet away from you and be
+      knocked prone. This ability can be used once per day.</p>
+  source:
+    value: ''
+  rules: []
+  slug: metallic-breath-weapon
+  schema:
+    version: 0.854
+    lastMigration: null
+  level:
+    value: 5
+  traits:
+    value:
+      - hb_dragonborn
+    rarity: common
+  category: ancestry
+  onlyLevel1: false
+  maxTakable: 1
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value:
+      - value: Breath Weapon
+  location: null
+_id: XmqaCUlnP3KHPX7r
+img: systems/pf2e/icons/spells/dragon-breath.webp
+sort: 0
+ownership:
+  default: 0
+  1m7IAspt1k3Q906j: 3
+flags: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.3.2
+  coreVersion: '11.307'
+  createdTime: 1692872025199
+  modifiedTime: 1692879651319
+  lastModifiedBy: 1m7IAspt1k3Q906j
+_key: '!items!XmqaCUlnP3KHPX7r'

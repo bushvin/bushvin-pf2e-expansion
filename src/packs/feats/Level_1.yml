@@ -1,0 +1,16 @@
+name: Level 1
+sorting: a
+folder: null
+type: Item
+_id: NnZWtMQ83iuKNqu6
+sort: 100000
+color: null
+flags: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.3.2
+  coreVersion: '11.307'
+  createdTime: 1692871557557
+  modifiedTime: 1692879647253
+  lastModifiedBy: 1m7IAspt1k3Q906j
+_key: '!folders!NnZWtMQ83iuKNqu6'

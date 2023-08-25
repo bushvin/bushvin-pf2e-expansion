@@ -1,0 +1,59 @@
+name: Dragon Claws
+type: feat
+effects: []
+system:
+  description:
+    gm: ''
+    value: "<p>Your body has grown dragon claws that you wield with might in combat. Your claw unarmed attack deals 1d4 slashing damage, has the agile, finesse, and unarmed traits. This unarmed attack is in the brawling weapon group.\_</p>"
+  source:
+    value: ''
+  rules:
+    - category: unarmed
+      damage:
+        base:
+          damageType: slashing
+          dice: 1
+          die: d6
+      group: brawling
+      key: Strike
+      range: null
+      traits:
+        - agile
+        - finesse
+        - unarmed
+  slug: dragon-claws
+  schema:
+    version: 0.854
+    lastMigration: null
+  level:
+    value: 1
+  traits:
+    value:
+      - hb_dragonborn
+    rarity: common
+  category: ancestry
+  onlyLevel1: false
+  maxTakable: 1
+  actionType:
+    value: action
+  actions:
+    value: 1
+  prerequisites:
+    value: []
+  location: null
+_id: XBbR8aq9X63gVRh4
+img: systems/pf2e/icons/spells/dragon-claws.webp
+folder: NnZWtMQ83iuKNqu6
+sort: 200000
+ownership:
+  default: 0
+  1m7IAspt1k3Q906j: 3
+flags: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.3.2
+  coreVersion: '11.307'
+  createdTime: 1692870909295
+  modifiedTime: 1692892028290
+  lastModifiedBy: 1m7IAspt1k3Q906j
+_key: '!items!XBbR8aq9X63gVRh4'

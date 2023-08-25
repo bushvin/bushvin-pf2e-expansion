@@ -1,0 +1,91 @@
+name: Dragonborn
+type: ancestry
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>Dragonborn are the second most prolific race in the Arkhosian Empire,
+      next to humans. They are larger, stronger, and tougher than most races in
+      Nerath, and one of their soldiers is easily worth three of any other race,
+      or so they claim. Dragonborn are proud of their heritage and
+      accomplishments and tend to look down on the less powerful, shorter-lived
+      races. The Dragonborn used to revere dragons as higher beings, but since
+      their masters’ departure, the Dragonborn have become content as the
+      masters of their own destiny.</p>
+  source:
+    value: ''
+  rules: []
+  slug: dragonborn
+  schema:
+    version: 0.854
+    lastMigration: null
+  traits:
+    value:
+      - hb_dragonborn
+      - humanoid
+    rarity: common
+  hp: 10
+  size: med
+  reach: 5
+  speed: 30
+  boosts:
+    '0':
+      value:
+        - str
+    '1':
+      value:
+        - cha
+    '2':
+      value:
+        - str
+        - dex
+        - con
+        - int
+        - wis
+        - cha
+  flaws:
+    '0':
+      value:
+        - int
+  languages:
+    value:
+      - common
+      - draconic
+    custom: ''
+  additionalLanguages:
+    count: 0
+    value:
+      - goblin
+      - jotun
+      - orcish
+    custom: ''
+  items:
+    2s8Ca:
+      img: systems/pf2e/icons/default-icons/feat.svg
+      level: 0
+      name: Breath Weapon
+      uuid: Compendium.bushvin-pf2e-expansion.ancestryfeatures.fQmAZdrRYx6UoiYi
+    68q2K:
+      img: systems/pf2e/icons/default-icons/feat.svg
+      level: 0
+      name: Damage Resistance
+      uuid: Compendium.bushvin-pf2e-expansion.ancestryfeatures.Zv2o5KVTvcDtQVac
+  vision: normal
+img: systems/pf2e/icons/spells/dragon-form.webp
+folder: null
+ownership:
+  default: 0
+  1m7IAspt1k3Q906j: 3
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.3.2
+  coreVersion: '11.307'
+  createdTime: 1692867239237
+  modifiedTime: 1692868049403
+  lastModifiedBy: 1m7IAspt1k3Q906j
+_id: zZR26Ycr687afIZe
+sort: 0
+_key: '!items!zZR26Ycr687afIZe'

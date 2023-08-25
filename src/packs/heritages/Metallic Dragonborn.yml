@@ -1,0 +1,16 @@
+name: Metallic Dragonborn
+sorting: a
+folder: null
+type: Item
+_id: ojXHip2KZUKuLdR7
+sort: 0
+color: null
+flags: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.3.2
+  coreVersion: '11.307'
+  createdTime: 1692879705254
+  modifiedTime: 1692879705254
+  lastModifiedBy: 1m7IAspt1k3Q906j
+_key: '!folders!ojXHip2KZUKuLdR7'

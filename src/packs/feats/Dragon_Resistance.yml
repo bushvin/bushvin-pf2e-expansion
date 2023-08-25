@@ -1,0 +1,50 @@
+folder: WPY4b746k2iCiVs3
+name: Dragon Resistance
+type: feat
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>Your dragon blood grants you the ability to shrug off the energy type
+      of your progenitor’s breath attack damage type. You gain resistance 10
+      against that energy.</p>
+  source:
+    value: ''
+  rules: []
+  slug: dragon-resistance
+  schema:
+    version: 0.854
+    lastMigration: null
+  level:
+    value: 5
+  traits:
+    value:
+      - hb_dragonborn
+    rarity: common
+  category: ancestry
+  onlyLevel1: false
+  maxTakable: 1
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value:
+      - value: Damage Resistance
+  location: null
+_id: L1dENaBLOP8w2b5H
+img: systems/pf2e/icons/spells/resist-energy.webp
+sort: 0
+ownership:
+  default: 0
+  1m7IAspt1k3Q906j: 3
+flags: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.3.2
+  coreVersion: '11.307'
+  createdTime: 1692871742962
+  modifiedTime: 1692879651319
+  lastModifiedBy: 1m7IAspt1k3Q906j
+_key: '!items!L1dENaBLOP8w2b5H'

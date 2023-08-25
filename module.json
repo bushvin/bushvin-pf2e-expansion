@@ -1,0 +1,119 @@
+{
+    "id": "bushvin-pf2e-expansion",
+    "name": "bushvin-pf2e-expansion",
+    "title": "Bushvin's Pathfinder2e expansion",
+    "description": "Additional resources created for my campaigns",
+    "url": "https://github.com/bushvin/bushvin-pf2e-expansion",
+    "version": "1.0.0",
+    "flags": {
+        "bushvin-pf2e-expansion": {
+            "pf2e-homebrew": {
+                "creatureTraits": {
+                    "dragonborn": "Dragonborn",
+                    "chromatic": "Chromatic",
+                    "metallic": "Metallic",
+                    "black": "Black",
+                    "blue": "Blue",
+                    "green": "Green",
+                    "red": "Red",
+                    "white": "White",
+                    "brass": "Brass",
+                    "bronze": "Bronze",
+                    "copper": "Copper",
+                    "gold": "Gold",
+                    "silver": "Silver"
+                },
+                "featTraits": {
+                    "dragonborn": "Dragonborn",
+                    "chromatic": "Chromatic",
+                    "metallic": "Metallic",
+                    "black": "Black",
+                    "blue": "Blue",
+                    "green": "Green",
+                    "red": "Red",
+                    "white": "White",
+                    "brass": "Brass",
+                    "bronze": "Bronze",
+                    "copper": "Copper",
+                    "gold": "Gold",
+                    "silver": "Silver"
+                }
+            }
+        }
+    },
+    "packs": [
+        {
+            "label": "Bushvin's Ancestries",
+            "name": "ancestries",
+            "package": "bushvin-pf2e-expansion",
+            "path": "./packs/ancestries",
+            "type": "Item",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+              }
+        },
+        {
+            "label": "Bushvin's Ancestry Features",
+            "name": "ancestryfeatures",
+            "package": "bushvin-pf2e-expansion",
+            "path": "./packs/ancestryfeatures",
+            "type": "Item",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+              }
+        },
+        {
+            "label": "Bushvin's Feats",
+            "name": "feats",
+            "package": "bushvin-pf2e-expansion",
+            "path": "./packs/feats",
+            "type": "Item",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+                }
+        },
+        {
+            "label": "Bushvin's Heritages",
+            "name": "heritages",
+            "package": "bushvin-pf2e-expansion",
+            "path": "./packs/heritages",
+            "type": "Item",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+              }
+        }
+    ],
+    "compatibility": {
+        "minimum": "11",
+        "verified": "11"
+    },
+    "relationships": {
+        "systems": [
+          {
+            "id": "pf2e",
+            "type": "system",
+            "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+            "compatibility": {
+              "minimum": "5.3.2"
+            }
+          }
+        ]
+    },
+    "authors": [
+        {
+          "name": "bushvin",
+          "url": "https://github.com/bushvin/"
+        }
+    ],
+    "manifest": "module.json",
+    "license": "LICENSE",
+    "readme": "README.md"
+}

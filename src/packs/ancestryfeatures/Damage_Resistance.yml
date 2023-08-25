@@ -1,0 +1,46 @@
+name: Damage Resistance
+type: feat
+effects: []
+system:
+  description:
+    gm: ''
+    value: "<p>This ability gains the trait of your Draconic ancestry.<br />\_ You have resistance 5 to the damage type associated with your Draconic Ancestry.</p>"
+  source:
+    value: ''
+  rules: []
+  slug: damage-resistance
+  schema:
+    version: 0.854
+    lastMigration: null
+  level:
+    value: 0
+  traits:
+    value:
+      - hb_dragonborn
+    rarity: common
+  category: ancestryfeature
+  onlyLevel1: false
+  maxTakable: 1
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value: []
+  location: null
+_id: Zv2o5KVTvcDtQVac
+img: systems/pf2e/icons/spells/resist-energy.webp
+folder: null
+sort: 100000
+ownership:
+  default: 0
+  1m7IAspt1k3Q906j: 3
+flags: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.3.2
+  coreVersion: '11.307'
+  createdTime: 1692870448992
+  modifiedTime: 1692879673410
+  lastModifiedBy: 1m7IAspt1k3Q906j
+_key: '!items!Zv2o5KVTvcDtQVac'

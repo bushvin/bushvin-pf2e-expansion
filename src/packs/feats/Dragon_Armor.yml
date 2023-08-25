@@ -1,0 +1,50 @@
+name: Dragon Armor
+type: feat
+effects: []
+system:
+  description:
+    gm: ''
+    value: "<p>Tough scales cover your body, offering you protection. Your scales are considered medium armor in the composite armor group and grants a +2 item bonus to AC without a dex cap or check penalty and has the comfort trait. You can never wear other armor or remove your scales. You can etch armor runes onto your scales as normal.\_</p>"
+  source:
+    value: ''
+  rules:
+    - key: FlatModifier
+      selector: ac
+      value: 2
+      type: item
+  slug: dragon-armor
+  schema:
+    version: 0.854
+    lastMigration: null
+  level:
+    value: 1
+  traits:
+    value:
+      - hb_dragonborn
+    rarity: common
+  category: ancestry
+  onlyLevel1: false
+  maxTakable: 1
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value: []
+  location: null
+_id: 4VbpWdkETTM25OK6
+img: systems/pf2e/icons/spells/chromatic-armor.webp
+folder: NnZWtMQ83iuKNqu6
+sort: 100000
+ownership:
+  default: 0
+  1m7IAspt1k3Q906j: 3
+flags: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.3.2
+  coreVersion: '11.307'
+  createdTime: 1692871087064
+  modifiedTime: 1692891721680
+  lastModifiedBy: 1m7IAspt1k3Q906j
+_key: '!items!4VbpWdkETTM25OK6'

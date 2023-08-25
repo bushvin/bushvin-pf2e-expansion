@@ -1,0 +1,40 @@
+name: Black Dragonborn
+type: heritage
+effects: []
+system:
+  description:
+    gm: ''
+    value: ''
+  source:
+    value: ''
+  rules: []
+  slug: black-dragonborn
+  schema:
+    version: 0.854
+    lastMigration: null
+  traits:
+    value:
+      - hb_black
+      - hb_chromatic
+    rarity: common
+  ancestry:
+    name: Dragonborn
+    slug: dragonborn
+    uuid: Compendium.bushvin-pf2e-expansion.ancestries.Item.zZR26Ycr687afIZe
+img: systems/pf2e/icons/spells/dragon-form.webp
+folder: VkaariTo8IIkRe8J
+ownership:
+  default: 0
+  1m7IAspt1k3Q906j: 3
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.3.2
+  coreVersion: '11.307'
+  createdTime: 1692867437875
+  modifiedTime: 1692879707498
+  lastModifiedBy: 1m7IAspt1k3Q906j
+_id: b2DhMXAo6OLhhyoQ
+sort: 100000
+_key: '!items!b2DhMXAo6OLhhyoQ'

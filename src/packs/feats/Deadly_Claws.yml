@@ -1,0 +1,50 @@
+folder: WPY4b746k2iCiVs3
+name: Deadly Claws
+type: feat
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>Your natural weapons are especially dangerous. The unarmed attacks you
+      gain from Dragon Claws deal 1d4 persistent bleed damage on a critical
+      hit.</p>
+  source:
+    value: ''
+  rules: []
+  slug: deadly-claws
+  schema:
+    version: 0.854
+    lastMigration: null
+  level:
+    value: 5
+  traits:
+    value:
+      - hb_dragonborn
+    rarity: common
+  category: bonus
+  onlyLevel1: false
+  maxTakable: 1
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value:
+      - value: Dragon Claws
+  location: null
+_id: 4xhRTsoUM6tqRjZe
+img: systems/pf2e/icons/spells/gouging-claw.webp
+sort: 0
+ownership:
+  default: 0
+  1m7IAspt1k3Q906j: 3
+flags: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.3.2
+  coreVersion: '11.307'
+  createdTime: 1692871956470
+  modifiedTime: 1692879651319
+  lastModifiedBy: 1m7IAspt1k3Q906j
+_key: '!items!4xhRTsoUM6tqRjZe'
