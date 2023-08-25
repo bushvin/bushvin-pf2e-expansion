@@ -1,10 +1,8 @@
-name: Bushvin's PF2e Extension
-
+name: "Bushvin's PF2e Extension"
 on:
   push:
     tags:
       - '*'
-
 jobs:
   build:
     runs-on: ubuntu-latest
