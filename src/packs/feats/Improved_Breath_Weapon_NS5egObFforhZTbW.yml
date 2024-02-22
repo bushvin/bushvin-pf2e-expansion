@@ -24,11 +24,10 @@ system:
   onlyLevel1: false
   maxTakable: 1
   actionType:
-    value: action
-  actions:
-    value: 2
+    value: passive
   prerequisites:
-    value: []
+    value:
+      - value: Breath Weapon
   location: null
   frequency:
     max: 1
@@ -44,8 +43,9 @@ flags: {}
 _stats:
   systemId: pf2e
   systemVersion: 5.3.2
-  coreVersion: '11.307'
+  coreVersion: '11.315'
   createdTime: 1692871410863
   modifiedTime: 1692879647229
   lastModifiedBy: 1m7IAspt1k3Q906j
 _key: '!items!NS5egObFforhZTbW'
+

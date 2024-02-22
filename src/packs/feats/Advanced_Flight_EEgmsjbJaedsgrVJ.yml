@@ -1,0 +1,60 @@
+_id: EEgmsjbJaedsgrVJ
+_stats:
+  coreVersion: '11.315'
+  createdTime: 1708347242197
+  lastModifiedBy: 1m7IAspt1k3Q906j
+  modifiedTime: 1708600646791
+  systemId: pf2e
+  systemVersion: 5.8.3
+effects: []
+flags: {}
+folder: JjCTMxeWZEcysMSa
+img: systems/pf2e/icons/spells/dragon-wings.webp
+name: Advanced Flight
+ownership:
+  1m7IAspt1k3Q906j: 3
+  default: 0
+sort: 100000
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>You unfold your wings for travel and can keep them unfolded for 10
+      minutes. You gain a fly Speed equal to your land Speed while your wings
+      are unfurled. If you have Basic Flight, you gain a +10-foot status bonus
+      to your fly Speed with Advanced Flight. As normal, since your fly Speed is
+      derived from your land Speed, this status bonus isn’t cumulative with a
+      status bonus to your land Speed, if you have one.</p>
+  rules: []
+  slug: null
+  _migration:
+    version: 0.88
+    lastMigration: null
+  traits:
+    otherTags: []
+    value:
+      - hb_dragonborn
+    rarity: common
+  publication:
+    title: 'Lost Omens Ancestries: Dragonkin'
+    authors: Luis Loza
+    license: OGL
+    remaster: false
+  level:
+    value: 9
+  category: ancestry
+  onlyLevel1: false
+  maxTakable: 1
+  actionType:
+    value: action
+  actions:
+    value: 2
+  prerequisites:
+    value: []
+  location: null
+  frequency:
+    max: 1
+    per: day
+type: feat
+_key: '!items!EEgmsjbJaedsgrVJ'
+

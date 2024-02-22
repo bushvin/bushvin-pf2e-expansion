@@ -52,8 +52,9 @@ flags: {}
 _stats:
   systemId: pf2e
   systemVersion: 5.3.2
-  coreVersion: '11.307'
+  coreVersion: '11.315'
   createdTime: 1692870909295
   modifiedTime: 1692892028290
   lastModifiedBy: 1m7IAspt1k3Q906j
 _key: '!items!XBbR8aq9X63gVRh4'
+

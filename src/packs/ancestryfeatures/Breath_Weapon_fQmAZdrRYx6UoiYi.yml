@@ -4,7 +4,192 @@ effects: []
 system:
   description:
     gm: ''
-    value: "<p>This action gains the trait of your Draconic ancestry.<br />When you take an attack action on your turn, you can replace one of your attacks with an exhalation of magical energy depending on your Draconic Ancestry.</p>\n<p>Each creature in the area of effect must make a basic saving throw for half damage.</p>\n<p>On a failed save, the creature takes 1d10 damage of the type associated with your dragon ancestry.\_</p>\n<p><strong>Chromatic Dragonborn</strong></p>\n<table style=\"width:100%;height:133px\" border=\"1\"><colgroup><col style=\"width:5.04951%\"></col><col style=\"width:18.2178%\"></col><col style=\"width:22.0792%\"></col><col style=\"width:54.6535%\"></col></colgroup>\n<tbody>\n<tr style=\"height:38px\">\n<td style=\"height:38px\"><strong>Dragon</strong></td>\n<td style=\"height:38px\"><strong>Damage</strong></td>\n<td style=\"height:38px\"><strong>Area</strong></td>\n<td style=\"height:38px\"><strong>Save</strong></td>\n</tr>\n<tr style=\"height:19px\">\n<td style=\"height:19px\">Black</td>\n<td style=\"height:19px\">@Damage[1d10[acid]]</td>\n<td style=\"height:19px\">@Template[type:line|distance:30]</td>\n<td style=\"height:19px\">@Check[type:reflex|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true]</td>\n</tr>\n<tr style=\"height:19px\">\n<td style=\"height:19px\">Blue</td>\n<td style=\"height:19px\">@Damage[1d10[electricity]]</td>\n<td style=\"height:19px\">@Template[type:line|distance:30]</td>\n<td style=\"height:19px\">@Check[type:reflex|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true]</td>\n</tr>\n<tr style=\"height:19px\">\n<td style=\"height:19px\">Green</td>\n<td style=\"height:19px\">@Damage[1d10[poison]]</td>\n<td style=\"height:19px\">@Template[type:cone|distance:15]</td>\n<td style=\"height:19px\">@Check[type:fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true]</td>\n</tr>\n<tr style=\"height:19px\">\n<td style=\"height:19px\">Red</td>\n<td style=\"height:19px\">@Damage[1d10[fire]]</td>\n<td style=\"height:19px\">@Template[type:cone|distance:15]</td>\n<td style=\"height:19px\">@Check[type:reflex|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true]</td>\n</tr>\n<tr style=\"height:19px\">\n<td style=\"height:19px\">White</td>\n<td style=\"height:19px\">@Damage[1d10[cold]]</td>\n<td style=\"height:19px\">@Template[type:cone|distance:15]</td>\n<td style=\"height:19px\">@Check[type:fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true]</td>\n</tr>\n</tbody>\n</table>\n<p>\_</p>\n<p><strong>Metallic Dragonborn</strong></p>\n<table style=\"width:100%;height:133px\" border=\"1\"><colgroup><col style=\"width:5.04951%\"></col><col style=\"width:18.2178%\"></col><col style=\"width:22.0792%\"></col><col style=\"width:54.6535%\"></col></colgroup>\n<tbody>\n<tr style=\"height:38px\">\n<td style=\"height:38px\"><strong>Dragon</strong></td>\n<td style=\"height:38px\"><strong>Damage</strong></td>\n<td style=\"height:38px\"><strong>Area</strong></td>\n<td style=\"height:38px\"><strong>Save</strong></td>\n</tr>\n<tr style=\"height:19px\">\n<td style=\"height:19px\">Brass</td>\n<td style=\"height:19px\">@Damage[1d10[fire]]</td>\n<td style=\"height:19px\">@Template[type:line|distance:30]</td>\n<td style=\"height:19px\">@Check[type:reflex|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true]</td>\n</tr>\n<tr style=\"height:19px\">\n<td style=\"height:19px\">Bronze</td>\n<td style=\"height:19px\">@Damage[1d10[electricity]]</td>\n<td style=\"height:19px\">@Template[type:line|distance:30]</td>\n<td style=\"height:19px\">@Check[type:reflex|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true]</td>\n</tr>\n<tr style=\"height:19px\">\n<td style=\"height:19px\">Copper</td>\n<td style=\"height:19px\">@Damage[1d10[acid]]</td>\n<td style=\"height:19px\">@Template[type:line|distance:15]</td>\n<td style=\"height:19px\">@Check[type:reflex|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true]</td>\n</tr>\n<tr style=\"height:19px\">\n<td style=\"height:19px\">Gold</td>\n<td style=\"height:19px\">@Damage[1d10[fire]]</td>\n<td style=\"height:19px\">@Template[type:cone|distance:15]</td>\n<td style=\"height:19px\">@Check[type:reflex|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true]</td>\n</tr>\n<tr style=\"height:19px\">\n<td style=\"height:19px\">Solver</td>\n<td style=\"height:19px\">@Damage[1d10[cold]]</td>\n<td style=\"height:19px\">@Template[type:cone|distance:15]</td>\n<td style=\"height:19px\">@Check[type:fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true]</td>\n</tr>\n</tbody>\n</table>\n<p>\_</p>"
+    value: >
+      <h2 class="title">Breath Weapon</h2>
+
+      <p>This action gains the trait of your Draconic ancestry.<br />When you
+      take an attack action on your turn, you can replace one of your attacks
+      with an exhalation of magical energy depending on your Draconic
+      Ancestry.</p>
+
+      <p>Each creature in the area of effect must make a basic saving throw for
+      half damage.</p>
+
+      <p>On a failed save, the creature takes damage of the type associated with
+      your dragon ancestry.</p>
+
+      <h3 class="title"><strong>Chromatic Dragonborn</strong></h3>
+
+      <table class="pf2-table">
+
+      <thead>
+
+      <tr>
+
+      <th>Dragon</th>
+
+      <th>Damage</th>
+
+      <th>Area</th>
+
+      <th>Save</th>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr>
+
+      <td>Black</td>
+
+      <td>@Damage[ceil(@actor.level/2)d6[acid]]</td>
+
+      <td>@Template[type:line|distance:30]</td>
+
+      <td>@Check[type:reflex|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true]</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Blue</td>
+
+      <td>@Damage[ceil(@actor.level/2)d6[electricity]]</td>
+
+      <td>@Template[type:line|distance:30]</td>
+
+      <td>@Check[type:reflex|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true]</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Green</td>
+
+      <td>@Damage[ceil(@actor.level/2)d6[poison]]</td>
+
+      <td>@Template[type:cone|distance:15]</td>
+
+      <td>@Check[type:fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true]</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Red</td>
+
+      <td>@Damage[ceil(@actor.level/2)d6[fire]]</td>
+
+      <td>@Template[type:cone|distance:15]</td>
+
+      <td>@Check[type:reflex|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true]</td>
+
+      </tr>
+
+      <tr>
+
+      <td>White</td>
+
+      <td>@Damage[ceil(@actor.level/2)d6[cold]]</td>
+
+      <td>@Template[type:cone|distance:15]</td>
+
+      <td>@Check[type:fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true]</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+
+      <h3 class="title"><strong>Metallic Dragonborn</strong></h3>
+
+      <table class="pf2-table">
+
+      <thead>
+
+      <tr>
+
+      <th>Dragon</th>
+
+      <th>Damage</th>
+
+      <th>Area</th>
+
+      <th>Save</th>
+
+      </tr>
+
+      </tbody>
+
+      <tbody>
+
+      <tr>
+
+      <td>Brass</td>
+
+      <td>@Damage[ceil(@actor.level/2)d6[fire]]</td>
+
+      <td>@Template[type:line|distance:30]</td>
+
+      <td>@Check[type:reflex|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true]</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Bronze</td>
+
+      <td>@Damage[ceil(@actor.level/2)d6[electricity]]</td>
+
+      <td>@Template[type:line|distance:30]</td>
+
+      <td>@Check[type:reflex|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true]</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Copper</td>
+
+      <td>@Damage[ceil(@actor.level/2)d6[acid]]</td>
+
+      <td>@Template[type:line|distance:15]</td>
+
+      <td>@Check[type:reflex|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true]</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Gold</td>
+
+      <td>@Damage[ceil(@actor.level/2)d6[fire]]</td>
+
+      <td>@Template[type:cone|distance:15]</td>
+
+      <td>@Check[type:reflex|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true]</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Solver</td>
+
+      <td>@Damage[ceil(@actor.level/2)d6[cold]]</td>
+
+      <td>@Template[type:cone|distance:15]</td>
+
+      <td>@Check[type:fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true]</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
   source:
     value: ''
   rules: []
@@ -42,8 +227,9 @@ flags: {}
 _stats:
   systemId: pf2e
   systemVersion: 5.3.2
-  coreVersion: '11.307'
+  coreVersion: '11.315'
   createdTime: 1692870257699
   modifiedTime: 1692893192100
   lastModifiedBy: 1m7IAspt1k3Q906j
 _key: '!items!fQmAZdrRYx6UoiYi'
+
