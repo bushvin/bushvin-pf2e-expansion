@@ -4,6 +4,13 @@ on:
     tags:
       - '*'
   workflow_dispatch:
+
+env:
+  fvtt_minimum: 11
+  fvtt_verified: 11
+  fvtt_dry_run: false
+  fvtt_module_id: bushvin-pf2e-expansion
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -18,16 +25,16 @@ jobs:
       with:
         files: 'module.json'
       env:
-        version: ${{github.event.release.tag_name}}
-        url: https://github.com/${{github.repository}}
-        manifest: https://github.com/${{github.repository}}/releases/latest/download/module.json
-        download: https://github.com/${{github.repository}}/releases/latest/download/bushvin-pf2e-expansion.zip
+        version: ${{ github.ref_name }}
+        url: https://github.com/${{ github.repository }}
+        manifest: https://github.com/${{ github.repository }}/releases/latest/download/module.json
+        download: https://github.com/${{ github.repository }}/releases/latest/download/${{ env.fvtt_module_id }}.zip
 
     - name: Zip files
       uses: thedoctor0/zip-release@0.7.1
       with:
         type: 'zip'
-        filename: 'bushvin-pf2e-expansion.zip'
+        filename: '${{ env.fvtt_module_id }}.zip'
         exclusions: '*.git* .vscode src'
 
     - name: Create Version Release
@@ -38,7 +45,7 @@ jobs:
         allowUpdates: false
         draft: false
         prerelease: false
-        artifacts: "module.json,bushvin-pf2e-expansion.zip"
+        artifacts: "module.json,${{ env.fvtt_module_id }}.zip"
         token: ${{ secrets.GITHUB_TOKEN }}
         tag: ${{ env.systemVersion }}
 
