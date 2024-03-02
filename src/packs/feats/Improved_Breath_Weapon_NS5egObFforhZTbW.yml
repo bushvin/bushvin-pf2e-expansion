@@ -7,28 +7,39 @@ system:
     value: >-
       <p>Instead of once per day, you can use your Breath weapon once per
       fight.</p>
-  source:
-    value: ''
   rules: []
   slug: improved-breath-weapon
-  schema:
-    version: 0.854
+  _migration:
+    version: null
     lastMigration: null
-  level:
-    value: 1
   traits:
+    otherTags: []
     value:
       - hb_dragonborn
     rarity: common
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 1
   category: ancestry
   onlyLevel1: false
   maxTakable: 1
   actionType:
     value: passive
+  actions:
+    value: null
   prerequisites:
     value:
       - value: Breath Weapon
   location: null
+  source:
+    value: ''
+  schema:
+    version: 0.854
+    lastMigration: null
   frequency:
     max: 1
     per: PT10M
@@ -42,10 +53,10 @@ ownership:
 flags: {}
 _stats:
   systemId: pf2e
-  systemVersion: 5.3.2
+  systemVersion: 5.8.3
   coreVersion: '11.315'
   createdTime: 1692871410863
-  modifiedTime: 1692879647229
+  modifiedTime: 1709396413581
   lastModifiedBy: 1m7IAspt1k3Q906j
 _key: '!items!NS5egObFforhZTbW'
 

@@ -1,0 +1,56 @@
+_id: EN9aXKnYoZ1e3g3p
+_stats:
+  coreVersion: '11.315'
+  createdTime: 1708347796001
+  lastModifiedBy: 1m7IAspt1k3Q906j
+  modifiedTime: 1709396422344
+  systemId: pf2e
+  systemVersion: 5.8.3
+effects: []
+flags: {}
+folder: JjCTMxeWZEcysMSa
+img: systems/pf2e/icons/spells/dragon-breath.webp
+name: Powerful Breath
+ownership:
+  1m7IAspt1k3Q906j: 3
+  default: 0
+sort: 200000
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>You can temporarily tap into greater draconic power to intensify your
+      breath. When you use Dragon’s Breath, you can increase the damage dice to
+      d8s and increase the area to 60 feet for a line breath weapon or 30 feet
+      for a cone. If you do, you can’t use Dragon’s Breath again for 1 hour
+      instead of 1d4 rounds.</p>
+  rules: []
+  slug: null
+  _migration:
+    version: 0.88
+    lastMigration: null
+  traits:
+    otherTags: []
+    value:
+      - hb_dragonborn
+    rarity: common
+  publication:
+    title: 'Lost Omens Ancestries: Dragonkin'
+    authors: Luis Loza
+    license: OGL
+    remaster: false
+  level:
+    value: 9
+  category: ancestry
+  onlyLevel1: false
+  maxTakable: 1
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value: []
+  location: null
+type: feat
+_key: '!items!EN9aXKnYoZ1e3g3p'
+
