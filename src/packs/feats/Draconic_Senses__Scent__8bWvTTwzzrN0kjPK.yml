@@ -3,7 +3,7 @@ _stats:
   coreVersion: '11.315'
   createdTime: 1708337499778
   lastModifiedBy: 1m7IAspt1k3Q906j
-  modifiedTime: 1709396617140
+  modifiedTime: 1709397256835
   systemId: pf2e
   systemVersion: 5.8.3
 effects: []
@@ -48,7 +48,7 @@ system:
     remaster: false
   level:
     value: 1
-  category: ancestryfeature
+  category: ancestry
   onlyLevel1: false
   maxTakable: 1
   actionType:
